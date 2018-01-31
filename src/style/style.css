@@ -1,0 +1,65 @@
+body {
+  background-color: #444;
+}
+.home {
+  width: 100vw;
+  height: 90vh;
+  left: 1vw;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-origin: border-box;
+  background-clip: padding-box;
+  background-attachment: fixed;
+  background-color: #444;
+}
+
+.trans-white {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 1vw;
+}
+
+ul div input.white-text {
+  font-size: 1.25rem;
+  text-align: left;
+  border-bottom: none;
+}
+
+@media (max-width: 650px) {
+  .home-bold {
+    font-size: 1.5em;
+  }
+  .home-less-bold {
+    font-size: 1em;
+  }
+}
+@media (min-width: 650px) {
+  .home-bold {
+    font-size: 4vh;
+  }
+  .home-less-bold {
+    font-size: 2.5vh;
+  }
+}
+
+* {
+  margin: 0;
+}
+.card-cont {
+  cursor: pointer;
+  height: 15vh;
+}
+
+[ui-sref] {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 10vh;
+  font-size: 1.5rem;
+}
