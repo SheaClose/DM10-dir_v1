@@ -5,17 +5,11 @@ angular
     $stateProvider
       .state("home", {
         url: "/",
-        templateUrl: `./js/home/homeTmpl.html`,
-        controller: "homeCtrl"
+        templateUrl: `./js/home/homeTmpl.html`
       })
       .state("beers", {
         url: "/beers",
         templateUrl: `./js/beers/beersTmpl.html`,
         controller: "beersCtrl"
-      })
-      .state("beer", {
-        url: "/beer/:id",
-        templateUrl: `./js/beer/beerTmpl.html`,
-        controller: "beerCtrl"
       });
   });
